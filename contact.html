@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Photography By Courtney</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Redressed&display=swap" rel="stylesheet">
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+    </head>
+
+    <body>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a class="active-page" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <h1 id="title">Photography By Courtney</h1>
+        <h2>Thanks for visiting my site! Feel free to send me an email with suggestions</h2>
+        <table id="email">
+            <tr>
+                <td class="col1">Name:</td>
+                <td>
+                    <input type="text" name="name" id="name">
+                </td>
+            </tr>
+            <tr>
+                <td class="col1">Email:</td>
+                <td>
+                    <input type="text" name="mail" id="mail">
+                </td>
+            </tr>
+            <tr>
+                <td class="col1">Comment:</td>
+                <td rowspan="5">
+                    <textarea name="comment" id="comment" rows="5" style="resize:vertical"></textarea>
+                </td>
+            </tr>
+        </table>
+        <button id="send">Send</button>
+        <script src="send.js"></script>
+    </body>
+</html>

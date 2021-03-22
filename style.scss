@@ -1,0 +1,179 @@
+$background: #b0ccba;
+$head: #114e3d;
+$accent: #698874; 
+
+
+/*Headings*/
+nav {
+    margin: 0;
+    margin-top: -8px;
+    padding-bottom: 5px;
+    text-align: left;
+    position: sticky;
+    top: 0;
+    background-color: $background;
+    ul {
+        margin: 0;
+        li {
+            display: inline-block;
+            padding: 10px;
+            padding-right: 40px;
+            font-size: 16px;
+            a {
+                color: white;
+                text-transform: uppercase;
+                text-decoration: none;
+                font-weight: bolder;
+            }
+        }
+    }
+}
+
+.active-page {
+    color: $accent;
+    border-bottom: 2px solid $accent;
+}
+
+body {
+    text-align: center;
+    background-color: $background;
+    color: white;
+    font-family: Open Sans;
+}
+
+#title {
+    font-size: 50px;
+    font-family: 'Redressed', cursive;
+    background-color: $head;
+    padding: 10px;
+    font-weight: 300;
+    margin: -8px -8px 0 -8px;
+    position: sticky;
+    top: 47px;
+}
+
+h2,
+h3 {
+    padding: 25px 0 0 0;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+/*Image Thumbnails*/
+#image-thumbnails {
+    margin-bottom: 100px;
+}
+
+.Image {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin: 10px;
+    &:hover {
+        cursor: pointer;
+        width: 255px;
+        height: 255px;
+        margin: 5px 7.5px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
+
+/*Image Details*/
+
+#image-details {
+    display: none;
+}
+
+#image-container {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+#back {
+    text-align: left;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+    cursor: pointer;
+    display: block;
+}
+
+#arrow {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 100;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#back-text {
+    vertical-align: middle;
+    display: inline-block;
+    font-weight: 900;
+    padding-bottom: 2px;
+    padding-left: 3px;
+}
+
+#info {
+    vertical-align: center;
+    display: inline-block;
+    width: 90%;
+    max-width: 450px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    display: inline-block;
+    text-align: left;
+    padding: 0;
+}
+
+#location {
+    margin-top: 5px;
+}
+
+#image-large {
+    width: 90%;
+    max-width: 600px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 20px 30px 20px;
+}
+
+/*Contact Page*/
+#email {
+    font-size: 18px;
+    font-weight: 800;
+    width: 620px;
+    margin: 50px auto 20px auto;
+    text-align: left;
+    td {
+        height: 40px;
+        vertical-align: top;
+    }
+    input,
+    textarea {
+    font-size: 15px;
+    margin-left: 8px;
+    width: 400px;
+    font-family: sans-serif;
+    border: $accent solid 1px;
+}
+}
+
+.col1 {
+    text-align: right;
+}
+
+#send {
+    background-color: $accent;
+    color: white;
+    font-size: 18px;
+    padding: 5px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
