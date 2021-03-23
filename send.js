@@ -10,7 +10,7 @@ let sendEmail = function () {
         Host : "smtp.elasticemail.com",
         Username : "mynewtestemail587@gmail.com",
         Password : "5F5983056A3B76FF703A33112ECEB4A265D2",
-        To : 'courtneymilligan1@gmail.com',
+        To : 'mynewtestemail587@gmail.com',
         From : "mynewtestemail587@gmail.com",
         Subject : "Comment on Photography Website",
         Body : body,
