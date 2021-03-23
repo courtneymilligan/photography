@@ -2,6 +2,7 @@ let send = document.getElementById('send');
 let nameInput = document.getElementById('name');
 let emailInput = document.getElementById('mail');
 let commentInput = document.getElementById('comment');
+let thanks = document.getElementById('thanks');
 
 let sendEmail = function () {
     let body = "Name: " + nameInput.value + "\nFrom: " + emailInput.value + "\nMessage: " + commentInput.value;
@@ -17,6 +18,7 @@ let sendEmail = function () {
     nameInput.value = "";
     emailInput.value = "";
     commentInput.value = "";
+    thanks.style.display = "block";
 }
 
 send.onclick = sendEmail;
